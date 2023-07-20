@@ -1,0 +1,36 @@
+////////TERMINAL//////////
+Voici un "plugin" a rentrer dans votre terminal pour vous rendre la vie facile.
+site sur un moteur de recherche = Oh my zsh
+
+
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+pwd = Vous permet de vous localiser dans les dossiers de votre ordinateur à travers le terminal
+norminette = verifier sur tu es a la norme (tres important avant de rendre) (exemple : norminette ex03) (tant que la normittte n'affiche pas de "OK!" après chaque exercices c'est qu'ils vous restent des erreurs à corriger ou que vous avez oubliés de retirer votre main dans votre exercice)
+cd = aller dans un dossier
+cd .. = dossier percedent 
+ls = lister les ficher non cachés
+ls -a = lister les fichiers en details et les dossier cachés
+mkdir = créer un dossier | exemple : mkdir test (cela va créer un dossier qui s'appelera "test")
+touch = créer un fichier | exemple : touch test (cela va créer un fichier qui s'appelera "test")
+rm -rf = supprimer le fichier (!!A UTILISER AVEC PARCIMONIE!!)
+rm = remove soit supprimer un fichier (Exemple : rm test | cela va supprimer le fichier test)
+
+//////////VIM/////////
+
+vimtutor = le tutoriel de vim
+vim + du nom du fichier = ouvrir un fichier dans l'éditeur de texte VIM
+: = Formule pour lancer une commande (ex :x pour enregister et quitter l'éditeur de texte VIM)
+:x = enregistrer et quitter l'éditeur VIM
+La touche I = --INSERT-- (elle vous permer de pouvoir éditer votre fichier, tant que celle ci ne serra pas utilisé et que le message --INSERT-- n'est pas affiché en bas de l'éditeur, vous ne pourrez rien modifier)
+La touche ESC = annule les changement de mode (ex --INSERT--)
+:w = sert a enregister
+:q = sert a quitter
+
+///////git////////
+
+git clone "repository"/"nom du fichier" = creer un dosier git | (Exemple : git clone https://github.com/NuggetDePoulet/tuto_base test)
+git add = premier ajout d'un ficher a git | (Exemple : git add ex02)
+git commit -m "message" = d'ajout d'un message pour le git add "obligatoire" | (Exemple : git commit -m "ajout de mes fichiers dans mon dossier git")
+git push = ajoute le fichier au serveur
+git status = sert a verifier si vous avez des add et ou des commit | (Exemple si en effectuant git status il vous dis qu'il vous reste des fichiers à commit c'est que vous n'avez pas bien fais les étapes précédentes)
